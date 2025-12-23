@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>G. Sudalesan | Portfolio</title>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gold">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">G. Sudalesan</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero fade-in">
+    <img src="me.jpg" alt="Sudalesan Portrait" class="hero-img">
+    <h1>Hi,I'm G. Sudalesan</h1>
+    <p>BE Student | Mobile & Web Developer | React Native & Java Enthusiast</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about fade-in-section">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m <strong>G. Sudalesan</strong>, a third-year Bachelor of Engineering student at DMI Engineering College, Aralvoimozhi (K.K. District). I’m passionate about software and mobile app development and enjoy building intuitive applications with clean design principles.  
+      <br><br>
+      I completed an internship at Feather Softwares (July 2025), focusing on mobile app development using React Native. That experience strengthened my skills in UI design, state management, and responsive development.
+      <br><br>
+      I’m currently expanding my skills in full-stack development with Java and modern JavaScript technologies.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills fade-in-section">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill-item"><i class="fa-brands fa-java"></i> Java</div>
+      <div class="skill-item"><i class="fa-brands fa-react"></i> React Native</div>
+      <div class="skill-item"><i class="fa-brands fa-html5"></i> HTML</div>
+      <div class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+      <div class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects fade-in-section">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>E-commerce Mobile App (React Native)</h3>
+      <p>
+        A complete e-commerce mobile app with login/signup, product list, cart, profile, bottom navigation, and state indicators designed for responsive mobile user experiences.
+      </p>
+    </div>
+
+    <!-- Improved Animated Screenshots Button -->
+    <button id="openGalleryBtn" class="btn btn-gallery animated-btn">
+      <i class="fa-solid fa-images"></i> View E-commerce Screenshots
+    </button>
+
+    <div class="project-card">
+      <h3>Student Details & Payment Management (Java)</h3>
+      <p>
+        A Java application managing student records and payments using object-oriented design principles and structured data handling.
+      </p>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+      <span id="closeGalleryBtn" class="close">&times;</span>
+      <div class="modal-content">
+        <img id="galleryImg" src="screenshot1.png" alt="Gallery Screenshot">
+        <div class="gallery-controls">
+          <button id="prevBtn" class="gallery-btn"><i class="fa-solid fa-chevron-left"></i></button>
+          <button id="nextBtn" class="gallery-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact fade-in-section">
+    <h2>Contact</h2>
+
+    <div class="contact-row">
+      <a href="mailto:sudalesan3@gmail.com" class="btn btn-mail">
+        <i class="fa-solid fa-envelope"></i> Email
+      </a>
+
+      <a href="https://www.linkedin.com/in/sudalesan-g-64b5b634b"
+         target="_blank" class="btn btn-linkedin">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+
+      <a href="your_cv.pdf" download class="btn btn-cv">
+        <i class="fa-solid fa-file-lines"></i> See CV
+      </a>
+    </div>
+  </section>
+
+  <!-- BACK TO TOP -->
+  <button id="topBtn" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- FOOTER -->
+  <footer class="footer fade-in-section">
+    <p>Made by G. Sudalesan • © 2025</p>
+    <div class="footer-icons">
+      <a href="mailto:sudalesan3@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/sudalesan-g-64b5b634b" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
